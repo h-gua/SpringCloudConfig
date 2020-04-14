@@ -1,8 +1,0 @@
-zuul:
-  routes:
-    first:
-      path: /api-r/**
-      serviceid: service-ribbon
-    second:
-      path: /api-f/**
-      serviceid: service-feign
